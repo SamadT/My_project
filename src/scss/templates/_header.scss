@@ -1,0 +1,73 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.Main_block{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_logo{    
+    width: 400px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/Logocopy.jpg');
+}
+.Second_block{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+.Main_menu{
+    box-shadow: 0px 0px 5px 1px $lightgray;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Main_menu_image{
+    width: 150px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/Logocopy.jpg');
+}
+.Second_block{
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+    li{
+        margin-left: 20px;
+        text-transform: uppercase;
+    }
+    li:hover{
+        color: $darkred;
+        transition: 0.5s;
+    }
+}
+#Find{
+    text-align: center;
+}
+#Find::placeholder{
+    text-transform: uppercase;
+}
+.Find_input{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.find_icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    background-image: url('../img/Search_Icon.jpg');
+}
+.Burger_menu{
+    display: none;
+}

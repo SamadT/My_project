@@ -1,0 +1,72 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.Line_4{
+    display: none;
+}
+.Main_footer_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1088px;
+}
+.Footer_block{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    color: $lightgray;
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+    li{
+        margin-left: 20px;
+        text-transform: uppercase;
+        color: $lightgray;
+    }
+    li:hover{
+        color: $darkred;
+        transition: 0.5s;
+    }
+}
+.Main_footer{
+    background: $light_black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Main_footer_image{
+    width: 150px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/Logo_2.jpg');
+    .Icons_3{
+        display: none;
+    }
+}
+.Copyright{
+    width: 13px;
+    height: 13px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/Copyright.jpg');
+    margin-right: 5px;
+}
+.Copyright_with_text{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.Icons_3{
+    width: 130px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/Icons_3.jpg');
+    position: absolute;
+    margin-left: 155px;
+}
